@@ -1,4 +1,4 @@
-let species = ["KTM", "Husqvarna", "Kawasaki", "Suzuki", "GasGas", "Yamaha", "Beta", "Honda", ];
+let species = ["Dugas", "Vārti", "Margas",];
 
 let slct1 = document.getElementById("slct1");
 

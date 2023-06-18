@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html style="margin-top: 30px;">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="header.css">
-<title>Sākums</title>
+<link rel="stylesheet" href="dugas.css">
+<title>Dugas</title>
 <link rel="icon" href="bildes/logo.png">
 </head>
-<body style="background-color: white;">
+<body>
     <header>
         <img class="logo" src="bildes/logo.png">
 
@@ -16,18 +17,30 @@
         <nav class="navbar">
             <ul>
                 <li><a href="https://mxsimgraphics.github.io/Dugas3.github.io/index.html">SĀKUMS</a></li>
-                <li><a href="https://mxsimgraphics.github.io/Dugas3.github.io/veikals/veikals.html">VEIKALS↓</a>
-                    <ul>
-                        <li><a href="https://mxsimgraphics.github.io/Dugas3.github.io/Dugas/dugasveikals.html">Dugas</a></li>
-                        <li><a href="https://mxsimgraphics.github.io/Dugas3.github.io/V%C4%81rti/vartiveikals.html">Vārti</a></li>
-                        <li><a href="https://mxsimgraphics.github.io/Dugas3.github.io/Margas/margasveikals.html">Margas</a></li>
-                    </ul>
-                </li>
                 <li><a href="https://mxsimgraphics.github.io/Dugas3.github.io/kontakti/kontakti.html">KONTAKTI</a></li>
             </ul>
         </nav>
     </header>
-
     
+        <div class="wrapper">
+            <nav>
+                <div class="items">
+                    <span class="item active" data-name="all">Viss</span>
+                    <span class="item" data-name="jumts">Jumts</span>
+                    <span class="item" data-name="apaksa">Apakša</span>
+                    <span class="item" data-name="sans">Sāns</span>
+                    <span class="item" data-name="prieksa">Priekšējais aizsargstienis</span>
+                </div>
+            </nav>
+            <div class="gallery">
+                <div class="image" data-name="jumts"><span><a href=""><img src="jumts/1.png"></a></span></div>
+                <div class="image" data-name="apaksa"><span><img src="apaksa/1.png"></span></div>
+                <div class="image" data-name="prieksa"><span><img src="prieksa/1.png"></span></div>
+                <div class="image" data-name="Dugas"><span><img src=""></span></div>
+                <div class="image" data-name="Vārti"><span><img src=""></span></div>
+                <div class="image" data-name="kawasaki"><span><img src=""></span></div>
+            </div>
+        </div>
+<script src="dugas.js"></script>
 </body>
 </html>

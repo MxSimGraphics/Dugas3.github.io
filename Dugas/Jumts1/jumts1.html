@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html style="margin-top: 30px;">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="style.css">
+<title>Jumts</title>
+<link rel="icon" href="bildes/logo.png">
+</head>
+<body>
+    <header>
+        <img class="logo" src="bildes/logo.png">
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar"><img src="bildes/MenuBar.png" style="width: 40px;"></label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://mxsimgraphics.github.io/Dugas3.github.io/index.html">SĀKUMS</a></li>
+                <li><a href="https://mxsimgraphics.github.io/Dugas3.github.io/kontakti/kontakti.html">KONTAKTI</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class = "card-wrapper" style="margin-top: 100px;">
+        <div class = "card">
+          <div class = "product-imgs">
+            <div class = "img-display">
+              <div class = "img-showcase">
+                <img src = "jumts/1(arLukturiem).png" alt = "arlampam image">
+                <img src = "jumts/1(bezLukturiem).png" alt = "bezlampam image">
+              </div>
+            </div>
+            <div class = "img-select">
+              <div class = "img-item">
+                <a href = "#" data-id = "1">
+                  <img src = "jumts/1(arLukturiem).png" alt = "shoe image">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a href = "#" data-id = "2">
+                  <img src = "jumts/1(bezLukturiem).png" alt = "shoe image">
+                </a>
+              </div>
+            </div>
+          </div>
+            <div class = "product-price">
+              <p class = "last-price">Ar lukturiem: <span>$257.00</span></p>
+              <p class = "new-price">Bez lukturiem: <span>$249.00</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <form action="https://formspree.io/f/mnqyojgj" method="POST">
+            <select name="lampas" id="slct1" style="max-width: 60%;">
+                <option>Lampas</option></select>
+            <select name="Fūre" id="slct2" style="max-width: 60%;">
+                <option>Fūre</option></select>
+            <input type="text" name="Vārds" placeholder="Pilnais vārds" required style="max-width: 60%;">
+            <input type="email" name="E-pasts" placeholder="E-pasts" required style="max-width: 60%;">
+            <input type="tlr" name="Tālrunis" placeholder="Tālr.:" required style="max-width: 60%;">
+            <br>
+            <br>
+            <textarea name="Ziņa" placeholder="Ziņa" required style="max-width: 60%;"></textarea>
+            <button type="sumbit">Sūtīt</button>
+        </form>
+    </div>
+<script src="select.js"></script>
+</body>
+</html>

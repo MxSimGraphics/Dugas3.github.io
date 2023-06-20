@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html style="margin-top: 30px;">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="style.css">
+<title>Jumts</title>
+<link rel="icon" href="bildes/logo.png">
+</head>
+<body>
+    <header>
+        <img class="logo" src="bildes/logo.png">
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar"><img src="bildes/MenuBar.png" style="width: 40px;"></label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://mxsimgraphics.github.io/Dugas3.github.io/index.html">SĀKUMS</a></li>
+                <li><a href="https://mxsimgraphics.github.io/Dugas3.github.io/kontakti/kontakti.html">KONTAKTI</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class = "card-wrapper" style="margin-top: 60px;">
+        <div class = "card">
+          <div class = "product-imgs">
+            <div class = "img-display">
+              <div class = "img-showcase">
+                <img src = "balkons/1.png" alt = "balkons image">
+                <img src = "balkons/2.png" alt = "balkons image">
+              </div>
+            </div>
+            <div class = "img-select">
+              <div class = "img-item">
+                <a href = "#" data-id = "1">
+                  <img src = "balkons/1.png" alt = "balkons image">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a href = "#" data-id = "2">
+                  <img src = "balkons/2.png" alt = "balkons image">
+                </a>
+              </div>
+            </div>
+          </div>
+            <div class = "product-price">
+              <p class = "last-price">cena</p>
+            </div>
+          </div>
+          <div class = "product-detail">
+            <h2>Par šo dugu: </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi ipsa!</p>
+            <ul>
+              <li>Metāls: <span>Nerūsējošais tērauds</span></li>
+              <li>Kategorija: <span>Balkons</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <form action="https://formspree.io/f/mnqyojgj" method="POST">
+          <input type="text" name="Balkons" value="Balkons1" style="display: none;">
+            <select name="Vieta" id="slct1" style="max-width: 60%;">
+                <option>Vieta</option></select>
+            <input type="text" name="Vieta" placeholder="Vieta" required style="max-width: 60%;">
+            <input type="text" name="Vārds" placeholder="Pilnais vārds" required style="max-width: 60%;">
+            <input type="email" name="E-pasts" placeholder="E-pasts" required style="max-width: 60%;">
+            <input type="tlr" name="Tālrunis" placeholder="Tālr.:" required style="max-width: 60%;">
+            <br>
+            <br>
+            <textarea name="Ziņa" placeholder="Ziņa" required style="max-width: 60%;"></textarea>
+            <button type="sumbit">Sūtīt</button>
+        </form>
+    </div>
+<script src="select.js"></script>
+</body>
+</html>

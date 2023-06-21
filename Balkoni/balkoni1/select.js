@@ -1,13 +1,3 @@
-let species = ["Ar", "Bez",];
-
-let slct1 = document.getElementById("slct1");
-
-species.forEach(function addSpecies(item) {
-    let option  = document.createElement("option");
-    option.text = item;
-    option.value = item;
-    slct1.appendChild(option);
-});
 const imgs = document.querySelectorAll('.img-select a');
 const imgBtns = [...imgs];
 let imgId = 1;

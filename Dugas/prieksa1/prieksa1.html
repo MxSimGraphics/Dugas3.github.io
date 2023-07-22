@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="margin-top: 30px;">
+<html style="margin-top: 30px;background-color: white;">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="header.css">
@@ -70,14 +70,18 @@
     <div class="container">
         <form action="https://formspree.io/f/mnqyojgj" method="POST">
           <input type="text" name="Priekšējais aizsargstienis" value="Priekša1" style="display: none;">
-            <select name="Lampas" id="slct1" style="max-width: 60%;">
-                <option>Lampas</option></select>
-            <select name="Smagā mašīna" id="slct2" style="max-width: 60%;">
+
+          <select name="Lampas" id="slct1" style="max-width: 60%;">
+            <option>Lampas</option></select>
+            <select name="Duga" id="slct2" style="max-width: 60%;display: none;"></select>
+
+            <select name="Smagā mašīna" id="slct3" style="max-width: 60%;">
                 <option>Smagā mašīna</option></select>
             <input type="text" name="Vārds" placeholder="Pilnais vārds" required style="max-width: 60%;">
             <input type="email" name="E-pasts" placeholder="E-pasts" required style="max-width: 60%;">
             <input type="tlr" name="Tālrunis" placeholder="Tālr.:" required style="max-width: 60%;">
             <textarea name="Ziņa" placeholder="Ziņa" required style="max-width: 60%;"></textarea>
+            <input type="hidden" name="Website" value="https://mxsimgraphics.github.io/Dugas3.github.io/Dugas/prieksa1/prieksa1.html">
             <button type="sumbit">Sūtīt</button>
         </form>
     </div>

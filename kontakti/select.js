@@ -1,4 +1,4 @@
-let species = ["Dugas", "Vārti", "Margas",];
+let species = ["Dugas", "Balkoni", "Izpūtēji", "Sliekšņi", "Žogi", "Vārti", "Priekšējie un aizmugurējie aizsargstieņi", "Džipam", "Margas",];
 
 let slct1 = document.getElementById("slct1");
 

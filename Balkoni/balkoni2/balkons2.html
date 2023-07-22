@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html style="margin-top: 30px;">
+<html style="margin-top: 100px;">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="header.css">
 <link rel="stylesheet" href="style.css">
-<title>Jumts</title>
+<title>Balkons</title>
 <link rel="icon" href="bildes/logo.png">
 </head>
 <body>
@@ -44,17 +44,11 @@
               </div>
             </div>
           </div>
-            <div class = "product-price">
-              <p class = "last-price">cena -</p>
-            </div>
-          </div>
-          <div class = "product-detail">
-            <h2>Par šo margu: </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi ipsa!</p>
-            <ul>
-              <li>Metāls: <span>Nerūsējošais tērauds</span></li>
-              <li>Kategorija: <span>Balkons</span></li>
-            </ul>
+          <div class = "product-price">
+            <p class = "last-price">Cena: <span>-</span></p>
+            <br>
+            <p class = "metals">Metāls: <span>Nerūsējošais tērauds</span></p>
+            <p class = "kategorija">Kategorija: <span>Balkons</span></p>
           </div>
         </div>
       </div>
@@ -62,13 +56,14 @@
     <div class="container">
         <form action="https://formspree.io/f/mnqyojgj" method="POST">
           <input type="text" name="Balkons" value="Balkons1" style="display: none;">
+            <select name="Vieta" id="slct1" style="max-width: 60%;">
+                <option>Vieta</option></select>
             <input type="text" name="Vieta" placeholder="Vieta" required style="max-width: 60%;">
             <input type="text" name="Vārds" placeholder="Pilnais vārds" required style="max-width: 60%;">
             <input type="email" name="E-pasts" placeholder="E-pasts" required style="max-width: 60%;">
             <input type="tlr" name="Tālrunis" placeholder="Tālr.:" required style="max-width: 60%;">
-            <br>
-            <br>
             <textarea name="Ziņa" placeholder="Ziņa" required style="max-width: 60%;"></textarea>
+            <input type="hidden" name="Website" value="https://mxsimgraphics.github.io/Dugas3.github.io/Balkoni/balkoni2/balkons2.html">
             <button type="sumbit">Sūtīt</button>
         </form>
     </div>
